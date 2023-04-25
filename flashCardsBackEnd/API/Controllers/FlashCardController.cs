@@ -5,7 +5,7 @@ using DataAccess;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+//     [Route("[controller]")]
     public class FlashCardController : ControllerBase
     {
         private readonly Repository _repo;
