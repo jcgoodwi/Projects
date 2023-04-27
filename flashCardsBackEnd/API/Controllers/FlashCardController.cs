@@ -44,7 +44,7 @@ namespace API.Controllers
             return updatedCard;
         }
         [HttpDelete]
-        [Route("card/delete")]
+        [Route("card/delete/{id:int}")]
         public Cardset Delete(int id)
         {
             return _repo.DeleteFlashCard(id);
